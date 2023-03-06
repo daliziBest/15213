@@ -1,0 +1,5 @@
+5个phase的答案放在answer?raw里(?=1~5)，其二进制内容放在answer?hex里
+根据writeup里的内容提示，执行程序时重定向到相应的raw文件即可
+例如：
+通关phase1需要在shell中执行以下命令
+linux> ./ctarget -q < answer1raw

